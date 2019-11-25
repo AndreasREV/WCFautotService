@@ -128,6 +128,7 @@ namespace WCFautot.model
             "VALUES(@hinta,@rekpvm,@mottlv,@mitlkv,@automerkki,@automalli,@autovari,@polttoaine)",dbYhteys);
             //SqlParameter autoadd = new SqlParameter("@Safecarpara",dbYhteys);
             //komento1.Parameters.Add(autoadd);
+
             SqlParameter hinta = new SqlParameter("@hinta", pirssi.Hinta);
             komento1.Parameters.Add(hinta);
             SqlParameter rekisteri_paivamaara = new SqlParameter("@rekpvm", pirssi.Rekisteri_Paivamaara);

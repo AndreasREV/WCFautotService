@@ -52,6 +52,7 @@ namespace WCFautot
         [DataMember]
         public int AutonmerkkiID { get; set; }
         [DataMember]
+
         public int AutonmalliID { get; set; }
         [DataMember]
         public int VaritID { get; set; }
